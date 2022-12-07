@@ -1,0 +1,19 @@
+{
+  "userReviews": [
+    {
+      "name": "Simon ",
+      "createdAt": "Sat Jan 29 2022 08:51:18 GMT+0100 (Central European Standard Time)",
+      "message": "Very nice and easy to navigate. Beautiful photos of Xewkija and the feast. Good job."
+    },
+    {
+      "name": "Andrew Said",
+      "createdAt": "Sat Jan 29 2022 09:00:57 GMT+0100 (Central European Standard Time)",
+      "message": "This website is better than the Local Council's. It should be recommended to replace the existing one. Well done. "
+    },
+    {
+      "name": "Ermeline",
+      "createdAt": "Sat Jan 29 2022 09:15:05 GMT+0100 (Central European Standard Time)",
+      "message": "Easy to use and very informative and interesting. Well done!"
+    }
+  ]
+}

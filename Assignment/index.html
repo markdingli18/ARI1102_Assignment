@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/xewkija_logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="user_review.html">USER REVIEW</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+  <div class="text-box">
+    <h1>Welcome to Xewkija!</h1>
+    <br>    <br>
+    <div class="btn_container">
+          <a href="history.html">
+      <button class="button">Find out more!</button>
+      </a>
+    </div>
+  </div>
+    </section>
+
+<!-----Home----->
+
+<section class="HISTORY">
+  <h1>Below is a some information about Xewkija</h1>
+
+  <div class="row">
+    <div class="HISTORY-col">
+      <h3>1</h3>
+      <p>Xewkija is an administrative unit of Malta, on the island of Gozo. The population of Xewkija is 3,300 as of March 2014.</p>
+    </div>
+    <div class="HISTORY-col">
+      <h3>2</h3>
+      <p>The name Xewkija is derived from the Maltese word "Xewk", meaning "thistles" or "thorns"</p>
+    </div>
+    <div class="HISTORY-col">
+      <h3>3</h3>
+      <p>Xewkija is famous for its church, The Rotunda of Xewkija, which is dedicated to St. John the Baptist.</p>
+    </div>
+  </div>
+</section>
+
+<!-------Current Weather ------>
+
+<section class="weather">
+  <h1>WEATHER</h1>
+  <p>This is a live view of the current weather in Xewkija</p><br>
+</section>
+
+
+<body>
+  <main id="weather-container">
+    <br>
+    <div id="location">
+      <p></p>
+    </div>
+    <div id="temp">
+      <img src="images/icons/113" id="image">
+      <p id="celcius"><span id="temp-value"><span id="temp-unit"></span></span>°C</p>
+    </div>
+    <br>
+
+    <div id="climate">
+      <p></p>
+    </div>
+
+
+  </main>
+  <script src="weather.js"></script>
+</body>
+
+  <!------Map-------->
+
+  <section class="map">
+      <h1>MAP</h1>
+      <p>This is a map of Xewkija</p>
+      <br>
+
+      <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="script.js"></script>
+
+  </section>
+
+<!------- Hotspots ------->
+
+<section class="hotspots">
+  <h1>HOTSPOTS</h1>
+  <p>These are some hotspots in Xewkija</p>
+
+  <div class="row">
+      <div class="hotspots-col">
+        <img src="images/hotspots/church2.png" alt="">
+        <div class="layer">
+          <h3>Rotunda of Xewkija</h3>
+        </div>
+      </div>
+      <div class="hotspots-col">
+        <img src="images/hotspots/mgarr.jpg" alt="">
+        <div class="layer">
+          <h3>Mġarr ix-Xini</h3>
+        </div>
+      </div>
+    <div class="hotspots-col">
+      <img src="images/hotspots/Windmill.jpg" alt="">
+      <div class="layer">
+        <h3>Tat-Tmien Kantunieri Windmill</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------- Hotspots 2 ------->
+
+<section class="hotspots">
+
+  <div class="row">
+      <div class="hotspots-col">
+        <img src="images/hotspots/fotball.jpg" alt="">
+        <div class="layer">
+          <h3>Gozo Stadium</h3>
+        </div>
+      </div>
+      <div class="hotspots-col">
+        <img src="images/hotspots/cecilja_tower.jpg" alt="">
+        <div class="layer">
+          <h3>Santa Ċeċilia Tower</h3>
+        </div>
+      </div>
+    <div class="hotspots-col">
+      <img src="images/hotspots/cart.jpg" alt="">
+      <div class="layer">
+        <h3>Cart Ruts</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------- Hotspots 3 ------->
+
+<section class="hotspots">
+
+  <div class="row">
+      <div class="hotspots-col">
+        <img src="images/hotspots/karmnu.jpg" alt="">
+        <div class="layer">
+          <h3>Madonna tal-Karmnu<br>Chapel</h3>
+        </div>
+      </div>
+      <div class="hotspots-col">
+        <img src="images/hotspots/horse_track.jpg" alt="">
+        <div class="layer">
+          <h3>Gozo Horse Track</h3>
+        </div>
+      </div>
+    <div class="hotspots-col">
+      <img src="images/hotspots/hniena_chapel.jpg" alt="">
+      <div class="layer">
+        <h3>Madonna Tal-Ħniena<br>Chapel</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----- Footer ------->
+
+<section class="footer">
+  <h4></h4>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by Mark Dingli</p>
+</section>
+
+<!------JavaScript for Toggle menu------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
